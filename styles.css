@@ -32,3 +32,14 @@
   left: calc(50% - 50px);
   top: calc(700px);
 }
+
+.exerciseFour{
+  z-index: 1;
+  position: absolute;
+  width: 37px;
+  height: 37px;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+}
