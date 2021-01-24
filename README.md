@@ -13,7 +13,8 @@ ___
 
 Project Name | Date | Update Discription
 -------------|------|--------------------
-Shapes Exercise | 1/22/20201 | Created a REPO and README for project.
+Shapes Exercise | 1/22/2021 | Created a REPO and README for project.
+Shapes Exercise | 1/23/2021 | Cleaned up the code and styles.css
 
 ### License information
 
