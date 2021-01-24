@@ -15,6 +15,7 @@ Project Name | Date | Update Discription
 -------------|------|--------------------
 Shapes Exercise | 1/22/2021 | Created a REPO and README for project.
 Shapes Exercise | 1/23/2021 | Cleaned up the code and styles.css
+Shapes Exercise | 1/24/2021 | Finished up the 4th project
 
 ### License information
 
