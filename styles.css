@@ -1,45 +1,42 @@
 .exerciseOne{
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
 }
-
 .exerciseTwo{
-  z-index: 1;
-  position: absolute;
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  border-style: solid;
-  border-color: black;
-  border-width: 2px;
-  transform-origin: bottom center;
-  left: calc(50%);
-  top: calc(375px + 50px);
+	z-index: 1;
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	transform-origin: bottom center;
+	left: calc(50%);
+	top: calc(375px + 50px);
 }
-
 .exerciseThree{
-  z-index: 1;
-  position: absolute;
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  border-style: solid;
-  border-color: black;
-  border-width: 2px;
-  transform-origin: bottom right;
-  left: calc(50% - 50px);
-  top: calc(700px);
+	z-index: 1;
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	transform-origin: bottom right;
+	left: calc(50% - 50px);
+	top: calc(700px);
 }
-
 .exerciseFour{
-  z-index: 1;
-  position: absolute;
-  width: 37px;
-  height: 37px;
-  border-radius: 50%;
-  border-style: solid;
-  border-color: black;
-  border-width: 2px;
+	z-index: 1;
+	position: absolute;
+	width: 37px;
+	height: 37px;
+	border-radius: 50%;
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
 }
