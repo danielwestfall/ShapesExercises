@@ -1,14 +1,17 @@
 <html>
 <head>
-  <title>Shapes!</title>
-  <link rel="stylesheet" href="./styles.css">
+    <title>Shapes!</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./script.js" defer></script>
 </head>
 <body>
+
 <div style="position:absolute; left: 50%;">
     <h3>Exercise</h3>
 </div>
-<!-- Circles adjusted 1 radius horizontally and vertically to create the diamond and the z-index and colors adjused to create the correct pattern -->
+<!-- Circles adjusted 1 radius horizontally and vertically to create the diamond and the z-index and colors adjusted to create the correct pattern -->
 <div class = "exerciseOne"
+    id="oneOne"
     style="
     z-index: 1;
     left: 50%;
@@ -19,6 +22,7 @@
 
 <!-- 2nd clockwise circle, 1 radius down and 1 radius to right -->
 <div class = "exerciseOne"
+    id="oneTwo"
     style="
     z-index: 2;
     left: calc(50% + 50px);
@@ -28,6 +32,7 @@
 
 <!-- 3rd clockwise circle, 2 radii down and 2 radii to right -->
 <div class = "exerciseOne"
+    id="oneThree"
     style="
     z-index: 1;
     left: calc(50% + 100px);
@@ -37,6 +42,7 @@
 
 <!-- 4th clockwise circle, 3 radii down and 1 radius to right -->
 <div class = "exerciseOne"
+    id="oneFour"
     style="
     z-index: 2;
     left: calc(50% + 50px);
@@ -46,6 +52,7 @@
 
 <!-- 5th clockwise circle, 4 radii down and 0 radius to right -->
 <div class = "exerciseOne"
+    id="oneFive"
     style="
     z-index: 3;
     left: calc(50%);
@@ -55,6 +62,7 @@
 
 <!-- 6th clockwise circle, 3 radii down and -1 radius to right -->
 <div class = "exerciseOne"
+    id="oneSix"
     style="
     z-index: 4;
     left: calc(50% - 50px);
@@ -64,6 +72,7 @@
 
 <!-- 7th clockwise circle, 2 radii down and -2 radii to right -->
 <div class = "exerciseOne"
+    id="oneSeven"
     style="
     z-index: 1;
     left: calc(50% - 100px);
@@ -73,6 +82,7 @@
 
 <!-- 8th clockwise circle, 1 radius down and -1 radius to right -->
 <div class = "exerciseOne"
+    id="oneEight"
     style="
     z-index: 2;
     left: calc(50% - 50px);
@@ -83,198 +93,239 @@
 <!-- 2nd Exercise -->
 
 <!-- Same circles rotated from the same spot to create the pattern -->
+
 <div class = "exerciseTwo"
+    id="twoOne"
     style="
-    transform:rotate(0deg)
+    animation-delay: 220ms;
+    z-index: 8;
     "></div>
 
 <!-- 2nd CW -->
 <div class = "exerciseTwo"
+    id="twoTwo"
     style="
-    transform:rotate(45deg)
+    animation-delay: 440ms;
+    z-index: 7;
     "></div>
 
 <!-- 3rd CW -->
 <div class = "exerciseTwo"
+    id="twoThree"
     style="
-    transform:rotate(90deg)
+    animation-delay: 660ms;
+    z-index: 6;
     "></div>
 
 <!-- 4th CW -->
 <div class = "exerciseTwo"
+    id="twoFour"
     style="
-    transform:rotate(135deg)
+    animation-delay: 880ms;
+    z-index: 5;
     "></div>
 
 <!-- 5th CW -->
 <div class = "exerciseTwo"
+    id="twoFive"
     style="
-    transform:rotate(180deg)
+    animation-delay: 1100ms;
+    z-index: 4;
     "></div>
 
 <!-- 6th CW -->
 <div class = "exerciseTwo"
+    id="twoSix"
     style="
-    transform:rotate(225deg)
+    animation-delay: 1320ms;
+    z-index: 3;
     "></div>
 
 <!-- 7th CW -->
 <div class = "exerciseTwo"
+    id="twoSeven"
     style="
-    transform:rotate(270deg)
+    animation-delay: 1540ms;
+    z-index: 2;
     "></div>
 
 <!-- 8th CW -->
 <div class = "exerciseTwo"
+    id="twoEight"
     style="
-    transform:rotate(315deg)
+    animation-delay: 1760ms;
+    z-index: 1;
     "></div>
 
 <!-- 3rd Exercise -->
 
 <!-- 1st Circle -->
 <div class = "exerciseThree"
+    id="threeOne"
     style="
     transform:rotate(0deg)
     "></div>
 
 <!-- 2nd CW -->
 <div class = "exerciseThree"
-style="
-transform:rotate(15deg)
-"></div>
+    id="threeTwo"
+    style="
+    transform:rotate(15deg)
+    "></div>
 
 <!-- 3rd CW -->
 <div class = "exerciseThree"
-style="
-transform:rotate(30deg)
-"></div>
+    id="threeThree"
+    style="
+    transform:rotate(30deg)
+    "></div>
 
 <!-- 4th CW -->
 <div class = "exerciseThree"
-style="
-transform:rotate(45deg)
-"></div>
+    id="threeFour"
+    style="
+    transform:rotate(45deg)
+    "></div>
 
 <!-- 5th CW -->
 <div class = "exerciseThree"
-style="
-transform:rotate(60deg)
-"></div>
+    id="threeFive"
+    style="
+    transform:rotate(60deg)
+    "></div>
 
 <!-- 6th CW -->
 <div class = "exerciseThree"
-style="
-transform:rotate(75deg)
-"></div>
+    id="threeSix"
+    style="
+    transform:rotate(75deg)
+    "></div>
 
 <!-- 7th CW -->
 <div class = "exerciseThree"
-style="
-transform:rotate(90deg)
-"></div>
+    id="threeSeven"
+    style="
+    transform:rotate(90deg)
+    "></div>
 
 <!-- 8th Circle -->
 <div class = "exerciseThree"
-style="
-transform:rotate(105deg)
-"></div>
+    id="threeEight"
+    style="
+    transform:rotate(105deg)
+    "></div>
 
 <!-- 9th CW -->
 <div class = "exerciseThree"
-style="
-transform:rotate(120deg)
-"></div>
+    id="threeNine"
+    style="
+    transform:rotate(120deg)
+    "></div>
 
 <!-- 10th CW -->
 <div class = "exerciseThree"
-style="
-transform:rotate(135deg)
-"></div>
+    id="threeTen"
+    style="
+    transform:rotate(135deg)
+    "></div>
 
 <!-- 11th CW -->
 <div class = "exerciseThree"
-style="
-transform:rotate(150deg)
-"></div>
+    id="threeEleven"
+    style="
+    transform:rotate(150deg)
+    "></div>
 
 <!-- 12th CW -->
 <div class = "exerciseThree"
-style="
-transform:rotate(165deg)
-"></div>
+    id="threeTwelve"
+    style="
+    transform:rotate(165deg)
+    "></div>
 
 <!-- 13th CW -->
 <div class = "exerciseThree"
-style="
-transform:rotate(180deg)
-"></div>
+    id="threeThirteen"
+    style="
+    transform:rotate(180deg)
+    "></div>
 
 <!-- 14th CW -->
 <div class = "exerciseThree"
-style="
-transform:rotate(195deg)
-"></div>
+    id="threeFourteen"
+    style="
+    transform:rotate(195deg)
+    "></div>
 
 <!-- 15th Circle -->
 <div class = "exerciseThree"
-style="
-transform:rotate(210deg)
-"></div>
+    id="threeFifteen"
+    style="
+    transform:rotate(210deg)
+    "></div>
 
 <!-- 16th CW -->
 <div class = "exerciseThree"
-style="
-transform:rotate(225deg)
-"></div>
+    id="threeSixteen"
+    style="
+    transform:rotate(225deg)
+    "></div>
 
 <!-- 17th CW -->
 <div class = "exerciseThree"
-style="
-transform:rotate(240deg)
-"></div>
+    id="threeSeventeen"
+    style="
+    transform:rotate(240deg)
+    "></div>
 
 <!-- 18th CW -->
 <div class = "exerciseThree"
-style="
-transform:rotate(255deg)
-"></div>
+    id="threeEighteen"
+    style="
+    transform:rotate(255deg)
+    "></div>
 
 <!-- 19th CW -->
 <div class = "exerciseThree"
-style="
-transform:rotate(270deg)
-"></div>
+    id="threeNineteen"
+    style="
+    transform:rotate(270deg)
+    "></div>
 
 <!-- 20th CW -->
 <div class = "exerciseThree"
-style="
-transform:rotate(285deg)
-"></div>
+    id="threeTwenty"
+    style="
+    transform:rotate(285deg)
+    "></div>
 
 <!-- 21st CW -->
 <div class = "exerciseThree"
-style="
-transform:rotate(300deg)
-"></div>
+    id="threeTwentyone"
+    style="
+    transform:rotate(300deg)
+    "></div>
 
 <!-- 22nd CW -->
 <div class = "exerciseThree"
-style="
-transform:rotate(315deg)
-"></div>
+    id="threeTwentytwo"
+    style="
+    transform:rotate(315deg)
+    "></div>
 
 <!-- 23rd CW -->
 <div class = "exerciseThree"
-style="
-transform:rotate(330deg)
-"></div>
+    id="threeTwentythree"
+    style="
+    transform:rotate(330deg)
+    "></div>
 
 <!-- 24th CW -->
 <div class = "exerciseThree"
-style="
-transform:rotate(345deg)
-"></div>
+    id="threeTwentyfour"
+    style="
+    transform:rotate(345deg)
+    "></div>
 
 <!-- 4th Exercise Large circle div contains the small circles and their position is based off the larger circle's properties relative vs absolute positioning-->
 
@@ -293,28 +344,27 @@ border-width: 2px;
 ">
 
 <!-- Little Circles -->
-<div class = "exerciseFour" style="left: 79; top: -41;"></div>
-<div class = "exerciseFour" style="left: 119; top: -35;"></div>
-<div class = "exerciseFour" style="left: 153; top: -16;"></div>
-<div class = "exerciseFour" style="left: 180; top: 13;"></div>
-<div class = "exerciseFour" style="left: 196; top: 50;"></div>
-<div class = "exerciseFour" style="left: 200; top: 90;"></div>
-<div class = "exerciseFour" style="left: 190; top: 129;"></div>
-<div class = "exerciseFour" style="left: 168; top: 162;"></div>
-<div class = "exerciseFour" style="left: 138; top: 186;"></div>
-<div class = "exerciseFour" style="left: 100; top: 199;"></div>
-<div class = "exerciseFour" style="left: 60; top: 199;"></div>
-<div class = "exerciseFour" style="left: 24; top: 186;"></div>
-<div class = "exerciseFour" style="left: -8; top: 163;"></div>
-<div class = "exerciseFour" style="left: -30; top: 130;"></div>
-<div class = "exerciseFour" style="left: -41; top: 92;"></div>
-<div class = "exerciseFour" style="left: -38; top: 53;"></div>
-<div class = "exerciseFour" style="left: -23; top: 15;"></div>
-<div class = "exerciseFour" style="left: 4; top: -15;"></div>
-<div class = "exerciseFour" style="left: 39; top: -35;"></div>
+<div class = "exerciseFour" id="fourOne" style="left: 79; top: -41;"></div>
+<div class = "exerciseFour" id="fourTwo" style="left: 119; top: -35;"></div>
+<div class = "exerciseFour" id="fourThree" style="left: 153; top: -16;"></div>
+<div class = "exerciseFour" id="fourFour" style="left: 180; top: 13;"></div>
+<div class = "exerciseFour" id="fourFive" style="left: 196; top: 50;"></div>
+<div class = "exerciseFour" id="fourSix" style="left: 200; top: 90;"></div>
+<div class = "exerciseFour" id="fourSeven" style="left: 190; top: 129;"></div>
+<div class = "exerciseFour" id="fourEight" style="left: 168; top: 162;"></div>
+<div class = "exerciseFour" id="fourNine" style="left: 138; top: 186;"></div>
+<div class = "exerciseFour" id="fourTen" style="left: 100; top: 199;"></div>
+<div class = "exerciseFour" id="fourEleven" style="left: 60; top: 199;"></div>
+<div class = "exerciseFour" id="fourTwelve" style="left: 24; top: 186;"></div>
+<div class = "exerciseFour" id="fourThirteen" style="left: -8; top: 163;"></div>
+<div class = "exerciseFour" id="fourFourteen" style="left: -30; top: 130;"></div>
+<div class = "exerciseFour" id="fourFifteen" style="left: -41; top: 92;"></div>
+<div class = "exerciseFour" id="fourSixteen" style="left: -38; top: 53;"></div>
+<div class = "exerciseFour" id="fourSeventeen" style="left: -23; top: 15;"></div>
+<div class = "exerciseFour" id="fourEighteen" style="left: 4; top: -15;"></div>
+<div class = "exerciseFour" id="fourNineteen" style="left: 39; top: -35;"></div>
 
 </div>
-
 
 </body>
 </html>
