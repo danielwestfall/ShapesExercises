@@ -16,7 +16,77 @@
 	transform-origin: bottom center;
 	left: calc(50%);
 	top: calc(375px + 50px);
-	animation:spin 20s cubic-bezier(0.02, 0.02, 0.99, 1.01) infinite;
+	-webkit-animation:spin 20s cubic-bezier(0.02, 0.02, 0.99, 1.01) infinite;
+	        animation:spin 20s cubic-bezier(0.02, 0.02, 0.99, 1.01) infinite;
+}
+
+@-webkit-keyframes spin { 
+	
+	0% {
+		background-color: yellow;
+		transform: rotate(0deg) scale(1.0, 1.0);
+	}
+
+
+	8.3% { 
+		background-color: yellowgreen;
+		transform: rotate(360deg)  scale(0.8, 0.8); 
+	} 
+
+	16.6% { 
+		background-color: green;
+		transform: rotate(720deg) scale(0.6, 0.6); 
+	} 
+
+	24.9% { 
+		background-color: #088F8F;
+		transform: rotate(1080deg) scale(0.8, 0.8); 
+	} 
+
+	33.2% { 
+		background-color: blue;
+		transform: rotate(1440deg) scale(1.0, 1.0); 
+	} 
+
+	41.5% { 
+		background-color: blueviolet;
+		transform: rotate(1800deg)  scale(0.8, 0.8);
+	} 
+
+	49.8% { 
+		background-color: violet;
+		transform: rotate(2160deg) scale(0.6, 0.6); 
+	} 
+
+	58.1% { 
+		background-color: #c71585;
+		transform: rotate(2520deg) scale(0.4, 0.4); 
+	} 
+
+	66.4% { 
+		background-color: red;
+		transform: rotate(2880deg) scale(0.2, 0.2); 
+	} 
+
+	74.7% { 
+		background-color: orangered;
+		transform: rotate(3240deg) scale(0.4, 0.4); 
+	} 
+
+	83% { 
+		background-color: orange;
+		transform: rotate(3600deg) scale(0.6, 0.6); 
+	} 
+
+	91.3% { 
+		background-color: #ffae42;
+		transform: rotate(3960deg) scale(0.8, 0.8); 
+	} 
+
+	100% { 
+		background-color: yellow;
+		transform: rotate(4320deg) scale(1.0, 1.0); 
+	} 
 }
 
 @keyframes spin { 
