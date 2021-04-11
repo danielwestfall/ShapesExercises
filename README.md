@@ -1,24 +1,89 @@
-# Shapes Exercise
-___
+# Project Name
+> [Shapes Exercise Project - Click here to view!](https://danielwestfall.github.io/ShapesExercises/shapes.html)
 
-The Move Ball Exercise was an exercise that began the second week of the MIT xPRO Full Stack Developer Boot Camp. We started by creating an objects out of HTML and CSS and positioning them in patterns given to us by the instructors.
+## Table of contents
+---
+* [General info](#general-info)
+* [Links](#links)
+* [Screenshots](#screenshots)
+* [Technologies](#technologies)
+* [Setup](#setup)
+* [Features](#features)
+* [Status](#status)
+* [Inspiration](#inspiration)
+* [Contact](#contact)
 
-### Project Overview
-___
+## General info
+---
+Our initial project was to use CSS to replicate images of shapes made with div elements with CSS styles applied to them. I replicated them and then experimented with CSS animation keyframes and this is the result.
 
-We started off this project by being shown a selection of pictures created entirely out of HTML and CSS and were instructed to reproduce those images. I was required to play with the attributes in the styles to position, color, and layer each object to reproduce the images.
+Also check out my CSS space scene as an indepent project I enjoyed playing with. 
 
-### Updates
-___
+## Links
+---
+* [Open the Project](https://danielwestfall.github.io/ShapesExercises/shapes.html)
+* [Open the Space Project](https://danielwestfall.github.io/ShapesExercises/moon/moon.html)
+* [View it on GitHub](https://github.com/danielwestfall/)
+* [View my Portfolio](https://danielwestfall.github.io/)
 
-Project Name | Date | Update Discription
--------------|------|--------------------
-Shapes Exercise | 1/22/2021 | Created a REPO and README for project.
-Shapes Exercise | 1/23/2021 | Cleaned up the code and styles.css
-Shapes Exercise | 1/24/2021 | Finished up the 4th project
+## Screenshots
+---
+![Example screenshot]()
 
-### License information
+## Technologies
+---
+* HTML
+* CSS
+* JavaScript
 
-___
+## Setup
+---
+Feel free to fork it and make your own changes. You can also download the files locally and unzip them to a folder and run them in your favorite web browser. Check out the project [here](https://danielwestfall.github.io/ShapesExercises/shapes.html "Shapes Exercise").
 
-Coming soon... <br>
+## Features
+---
+List of features:
+* Pretty CSS experiments
+
+
+To-do list:
+* More CSS fun coming soon!
+
+## Status
+---
+Project is: _in progress_
+
+Project was completed to class specifications. I have added CSS animation elements to the project.
+
+## Inspiration
+---
+Project created by MIT xPro Full Stack Web Development Course. Completed and modified by Daniel Westfall.
+
+
+## Contact
+---
+[Daniel Westfall](mailto:DWWestfall@Protonmail.com).  Check out [my Portfolio](https://danielwestfall.github.io/ "my Portfolio")
+
+## License
+---
+MIT License
+
+Copyright (c) 2021 Daniel Westfall
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
