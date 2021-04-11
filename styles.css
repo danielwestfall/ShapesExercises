@@ -1,3 +1,7 @@
+body{
+	height: 2000px;
+}
+
 .exerciseOne{
 	position: absolute;
 	width: 100px;
@@ -158,28 +162,522 @@
 	} 
 }
 
+.exFour{
+	-webkit-animation:spin 20s cubic-bezier(0.02, 0.02, 0.99, 1.01) infinite;
+	        animation:spin 20s cubic-bezier(0.02, 0.02, 0.99, 1.01) infinite;
 
-.exerciseThree{
-	z-index: 1;
-	position: absolute;
-	width: 100px;
-	height: 100px;
-	border-radius: 50%;
-	border-style: solid;
-	border-color: black;
-	border-width: 2px;
-	transform-origin: bottom right;
-	left: calc(50% - 50px);
-	top: calc(700px);
 }
 
+.exerciseThree{
+	        z-index: 1;
+	        position: absolute;
+	        width: 100px;
+	        height: 100px;
+	        border-radius: 50%;
+	        border-style: solid;
+	        border-color: yellow;
+	        border-width: 2px;
+	        transform-origin: bottom right;
+	        left: calc(50% - 50px);
+	        top: calc(700px);
+	        animation:flower 20s cubic-bezier(0.02, 0.02, 0.99, 1.01) infinite;
+	        -webkit-animation:flower 20s cubic-bezier(0.02, 0.02, 0.99, 1.01) infinite;
+}
+
+@-webkit-keyframes flower { 
+	
+	0% {
+		border-color: yellow;
+		transform:rotate3d(0, 0, 0, 0deg) translate(0px, 0px)	;
+		-webkit-transform:rotate3d(0, 0, 0, 0deg) translate(0px, 0px)	;
+		-moz-transform:rotate3d(0, 0, 0, 0deg) translate(0px, 0px)	;
+		-ms-transform:rotate3d(0, 0, 0, 0deg) translate(0px, 0px)	;
+		-o-transform:rotate3d(0, 0, 0, 0deg) translate(0px, 0px)	;
+}
+
+
+	8.3% {
+		border-color: yellowgreen;
+		transform:rotate3d(0.1, 0.1, 0.1, 90deg) translate(55px, -55px)	;
+		-webkit-transform:rotate3d(0.1, 0.1, 0.1, 90deg) translate(55px, -55px)	;
+		-moz-transform:rotate3d(0.1, 0.1, 0.1, 90deg) translate(55px, -55px)	;
+		-ms-transform:rotate3d(0.1, 0.1, 0.1, 90deg) translate(55px, -55px)	;
+		-o-transform:rotate3d(0.1, 0.1, 0.1, 90deg) translate(55px, -55px)	;
+} 
+
+	16.6% {
+				border-color: green;
+				transform:rotate3d(0.66, 0.5, 0.75, 180deg) translate(105px, -125px)	;
+				-webkit-transform:rotate3d(0.66, 0.5, 0.75, 180deg) translate(105px, -125px)	;
+				-moz-transform:rotate3d(0.66, 0.5, 0.75, 180deg) translate(105px, -125px)	;
+				-ms-transform:rotate3d(0.66, 0.5, 0.75, 180deg) translate(105px, -125px)	;
+				-o-transform:rotate3d(0.66, 0.5, 0.75, 180deg) translate(105px, -125px)	;
+} 
+
+	24.9% {
+				border-color: #088F8F;
+				transform:rotate3d(1, 0.75, 1, 240deg) translate(85px, -95px)	;
+				-webkit-transform:rotate3d(1, 0.75, 1, 240deg) translate(85px, -95px)	;
+				-moz-transform:rotate3d(1, 0.75, 1, 240deg) translate(85px, -95px)	;
+				-ms-transform:rotate3d(1, 0.75, 1, 240deg) translate(85px, -95px)	;
+				-o-transform:rotate3d(1, 0.75, 1, 240deg) translate(85px, -95px)	;
+} 
+
+	33.2% {
+				border-color: blue;
+				transform:rotate3d(1, 1, 0.5, 300deg) translate(120px, -105px)	;
+				-webkit-transform:rotate3d(1, 1, 0.5, 300deg) translate(120px, -105px)	;
+				-moz-transform:rotate3d(1, 1, 0.5, 300deg) translate(120px, -105px)	;
+				-ms-transform:rotate3d(1, 1, 0.5, 300deg) translate(120px, -105px)	;
+				-o-transform:rotate3d(1, 1, 0.5, 300deg) translate(120px, -105px)	;
+} 
+
+	41.5% {
+				border-color: blueviolet;
+				transform:rotate3d(0.75, 1, 0.25, 360deg) translate(75px, -70px)	;
+				-webkit-transform:rotate3d(0.75, 1, 0.25, 360deg) translate(75px, -70px)	;
+				-moz-transform:rotate3d(0.75, 1, 0.25, 360deg) translate(75px, -70px)	;
+				-ms-transform:rotate3d(0.75, 1, 0.25, 360deg) translate(75px, -70px)	;
+				-o-transform:rotate3d(0.75, 1, 0.25, 360deg) translate(75px, -70px)	;
+} 
+
+	49.8% {
+				border-color: violet;
+				transform:rotate3d(0.5, 0.66, 0.5, 450deg) translate(25px, -35px)	;
+				-webkit-transform:rotate3d(0.5, 0.66, 0.5, 450deg) translate(25px, -35px)	;
+				-moz-transform:rotate3d(0.5, 0.66, 0.5, 450deg) translate(25px, -35px)	;
+				-ms-transform:rotate3d(0.5, 0.66, 0.5, 450deg) translate(25px, -35px)	;
+				-o-transform:rotate3d(0.5, 0.66, 0.5, 450deg) translate(25px, -35px)	;
+} 
+
+	58.1% {
+				border-color: #c71585;
+				transform:rotate3d(0.25, 0.25, 0.75, 515deg) translate(-20px, 20px)	;
+				-webkit-transform:rotate3d(0.25, 0.25, 0.75, 515deg) translate(-20px, 20px)	;
+				-moz-transform:rotate3d(0.25, 0.25, 0.75, 515deg) translate(-20px, 20px)	;
+				-ms-transform:rotate3d(0.25, 0.25, 0.75, 515deg) translate(-20px, 20px)	;
+				-o-transform:rotate3d(0.25, 0.25, 0.75, 515deg) translate(-20px, 20px)	;
+} 
+
+	66.4% {
+				border-color: red;
+				transform:rotate3d(0.5, 0.5, 1, 620deg) translate(-50px, 45px)	;
+				-webkit-transform:rotate3d(0.5, 0.5, 1, 620deg) translate(-50px, 45px)	;
+				-moz-transform:rotate3d(0.5, 0.5, 1, 620deg) translate(-50px, 45px)	;
+				-ms-transform:rotate3d(0.5, 0.5, 1, 620deg) translate(-50px, 45px)	;
+				-o-transform:rotate3d(0.5, 0.5, 1, 620deg) translate(-50px, 45px)	;
+} 
+
+	74.7% {
+				border-color: orangered;
+				transform:rotate3d(0.75, 0.75, 0.75, 575deg) translate(-75px, 90px)	;
+				-webkit-transform:rotate3d(0.75, 0.75, 0.75, 575deg) translate(-75px, 90px)	;
+				-moz-transform:rotate3d(0.75, 0.75, 0.75, 575deg) translate(-75px, 90px)	;
+				-ms-transform:rotate3d(0.75, 0.75, 0.75, 575deg) translate(-75px, 90px)	;
+				-o-transform:rotate3d(0.75, 0.75, 0.75, 575deg) translate(-75px, 90px)	;
+} 
+
+	83% {
+				border-color: orange;
+				transform:rotate3d(0.5, 0.5, 0.5, 505deg) translate(-45px, 75px)	;
+				-webkit-transform:rotate3d(0.5, 0.5, 0.5, 505deg) translate(-45px, 75px)	;
+				-moz-transform:rotate3d(0.5, 0.5, 0.5, 505deg) translate(-45px, 75px)	;
+				-ms-transform:rotate3d(0.5, 0.5, 0.5, 505deg) translate(-45px, 75px)	;
+				-o-transform:rotate3d(0.5, 0.5, 0.5, 505deg) translate(-45px, 75px)	;
+} 
+
+	91.3% {
+				border-color: #ffae42;
+				transform:rotate3d(0.25, 0.3, 0.1, 465deg) translate(-15px, 35px)	;
+				-webkit-transform:rotate3d(0.25, 0.3, 0.1, 465deg) translate(-15px, 35px)	;
+				-moz-transform:rotate3d(0.25, 0.3, 0.1, 465deg) translate(-15px, 35px)	;
+				-ms-transform:rotate3d(0.25, 0.3, 0.1, 465deg) translate(-15px, 35px)	;
+				-o-transform:rotate3d(0.25, 0.3, 0.1, 465deg) translate(-15px, 35px)	;
+} 
+
+	100% {
+				border-color: yellow;
+				transform:rotate3d(0, 0, 0, 360deg) translate(0px, 0px)	;
+				-webkit-transform:rotate3d(0, 0, 0, 360deg) translate(0px, 0px)	;
+				-moz-transform:rotate3d(0, 0, 0, 360deg) translate(0px, 0px)	;
+				-ms-transform:rotate3d(0, 0, 0, 360deg) translate(0px, 0px)	;
+				-o-transform:rotate3d(0, 0, 0, 360deg) translate(0px, 0px)	;
+} 
+}
+
+@keyframes flower { 
+	
+	0% {
+		border-color: yellow;
+		transform:rotate3d(0, 0, 0, 0deg) translate(0px, 0px)	;
+		-webkit-transform:rotate3d(0, 0, 0, 0deg) translate(0px, 0px)	;
+		-moz-transform:rotate3d(0, 0, 0, 0deg) translate(0px, 0px)	;
+		-ms-transform:rotate3d(0, 0, 0, 0deg) translate(0px, 0px)	;
+		-o-transform:rotate3d(0, 0, 0, 0deg) translate(0px, 0px)	;
+}
+
+
+	8.3% {
+		border-color: yellowgreen;
+		transform:rotate3d(0.1, 0.1, 0.1, 90deg) translate(55px, -55px)	;
+		-webkit-transform:rotate3d(0.1, 0.1, 0.1, 90deg) translate(55px, -55px)	;
+		-moz-transform:rotate3d(0.1, 0.1, 0.1, 90deg) translate(55px, -55px)	;
+		-ms-transform:rotate3d(0.1, 0.1, 0.1, 90deg) translate(55px, -55px)	;
+		-o-transform:rotate3d(0.1, 0.1, 0.1, 90deg) translate(55px, -55px)	;
+} 
+
+	16.6% {
+				border-color: green;
+				transform:rotate3d(0.66, 0.5, 0.75, 180deg) translate(105px, -125px)	;
+				-webkit-transform:rotate3d(0.66, 0.5, 0.75, 180deg) translate(105px, -125px)	;
+				-moz-transform:rotate3d(0.66, 0.5, 0.75, 180deg) translate(105px, -125px)	;
+				-ms-transform:rotate3d(0.66, 0.5, 0.75, 180deg) translate(105px, -125px)	;
+				-o-transform:rotate3d(0.66, 0.5, 0.75, 180deg) translate(105px, -125px)	;
+} 
+
+	24.9% {
+				border-color: #088F8F;
+				transform:rotate3d(1, 0.75, 1, 240deg) translate(85px, -95px)	;
+				-webkit-transform:rotate3d(1, 0.75, 1, 240deg) translate(85px, -95px)	;
+				-moz-transform:rotate3d(1, 0.75, 1, 240deg) translate(85px, -95px)	;
+				-ms-transform:rotate3d(1, 0.75, 1, 240deg) translate(85px, -95px)	;
+				-o-transform:rotate3d(1, 0.75, 1, 240deg) translate(85px, -95px)	;
+} 
+
+	33.2% {
+				border-color: blue;
+				transform:rotate3d(1, 1, 0.5, 300deg) translate(120px, -105px)	;
+				-webkit-transform:rotate3d(1, 1, 0.5, 300deg) translate(120px, -105px)	;
+				-moz-transform:rotate3d(1, 1, 0.5, 300deg) translate(120px, -105px)	;
+				-ms-transform:rotate3d(1, 1, 0.5, 300deg) translate(120px, -105px)	;
+				-o-transform:rotate3d(1, 1, 0.5, 300deg) translate(120px, -105px)	;
+} 
+
+	41.5% {
+				border-color: blueviolet;
+				transform:rotate3d(0.75, 1, 0.25, 360deg) translate(75px, -70px)	;
+				-webkit-transform:rotate3d(0.75, 1, 0.25, 360deg) translate(75px, -70px)	;
+				-moz-transform:rotate3d(0.75, 1, 0.25, 360deg) translate(75px, -70px)	;
+				-ms-transform:rotate3d(0.75, 1, 0.25, 360deg) translate(75px, -70px)	;
+				-o-transform:rotate3d(0.75, 1, 0.25, 360deg) translate(75px, -70px)	;
+} 
+
+	49.8% {
+				border-color: violet;
+				transform:rotate3d(0.5, 0.66, 0.5, 450deg) translate(25px, -35px)	;
+				-webkit-transform:rotate3d(0.5, 0.66, 0.5, 450deg) translate(25px, -35px)	;
+				-moz-transform:rotate3d(0.5, 0.66, 0.5, 450deg) translate(25px, -35px)	;
+				-ms-transform:rotate3d(0.5, 0.66, 0.5, 450deg) translate(25px, -35px)	;
+				-o-transform:rotate3d(0.5, 0.66, 0.5, 450deg) translate(25px, -35px)	;
+} 
+
+	58.1% {
+				border-color: #c71585;
+				transform:rotate3d(0.25, 0.25, 0.75, 515deg) translate(-20px, 20px)	;
+				-webkit-transform:rotate3d(0.25, 0.25, 0.75, 515deg) translate(-20px, 20px)	;
+				-moz-transform:rotate3d(0.25, 0.25, 0.75, 515deg) translate(-20px, 20px)	;
+				-ms-transform:rotate3d(0.25, 0.25, 0.75, 515deg) translate(-20px, 20px)	;
+				-o-transform:rotate3d(0.25, 0.25, 0.75, 515deg) translate(-20px, 20px)	;
+} 
+
+	66.4% {
+				border-color: red;
+				transform:rotate3d(0.5, 0.5, 1, 620deg) translate(-50px, 45px)	;
+				-webkit-transform:rotate3d(0.5, 0.5, 1, 620deg) translate(-50px, 45px)	;
+				-moz-transform:rotate3d(0.5, 0.5, 1, 620deg) translate(-50px, 45px)	;
+				-ms-transform:rotate3d(0.5, 0.5, 1, 620deg) translate(-50px, 45px)	;
+				-o-transform:rotate3d(0.5, 0.5, 1, 620deg) translate(-50px, 45px)	;
+} 
+
+	74.7% {
+				border-color: orangered;
+				transform:rotate3d(0.75, 0.75, 0.75, 575deg) translate(-75px, 90px)	;
+				-webkit-transform:rotate3d(0.75, 0.75, 0.75, 575deg) translate(-75px, 90px)	;
+				-moz-transform:rotate3d(0.75, 0.75, 0.75, 575deg) translate(-75px, 90px)	;
+				-ms-transform:rotate3d(0.75, 0.75, 0.75, 575deg) translate(-75px, 90px)	;
+				-o-transform:rotate3d(0.75, 0.75, 0.75, 575deg) translate(-75px, 90px)	;
+} 
+
+	83% {
+				border-color: orange;
+				transform:rotate3d(0.5, 0.5, 0.5, 505deg) translate(-45px, 75px)	;
+				-webkit-transform:rotate3d(0.5, 0.5, 0.5, 505deg) translate(-45px, 75px)	;
+				-moz-transform:rotate3d(0.5, 0.5, 0.5, 505deg) translate(-45px, 75px)	;
+				-ms-transform:rotate3d(0.5, 0.5, 0.5, 505deg) translate(-45px, 75px)	;
+				-o-transform:rotate3d(0.5, 0.5, 0.5, 505deg) translate(-45px, 75px)	;
+} 
+
+	91.3% {
+				border-color: #ffae42;
+				transform:rotate3d(0.25, 0.3, 0.1, 465deg) translate(-15px, 35px)	;
+				-webkit-transform:rotate3d(0.25, 0.3, 0.1, 465deg) translate(-15px, 35px)	;
+				-moz-transform:rotate3d(0.25, 0.3, 0.1, 465deg) translate(-15px, 35px)	;
+				-ms-transform:rotate3d(0.25, 0.3, 0.1, 465deg) translate(-15px, 35px)	;
+				-o-transform:rotate3d(0.25, 0.3, 0.1, 465deg) translate(-15px, 35px)	;
+} 
+
+	100% {
+				border-color: yellow;
+				transform:rotate3d(0, 0, 0, 360deg) translate(0px, 0px)	;
+				-webkit-transform:rotate3d(0, 0, 0, 360deg) translate(0px, 0px)	;
+				-moz-transform:rotate3d(0, 0, 0, 360deg) translate(0px, 0px)	;
+				-ms-transform:rotate3d(0, 0, 0, 360deg) translate(0px, 0px)	;
+				-o-transform:rotate3d(0, 0, 0, 360deg) translate(0px, 0px)	;
+} 
+}
+
+
 .exerciseFour{
-	z-index: 1;
-	position: absolute;
-	width: 37px;
-	height: 37px;
-	border-radius: 50%;
-	border-style: solid;
-	border-color: black;
-	border-width: 2px;
+		        z-index: 1;
+		        position: absolute;
+		        width: 37px;
+		        height: 37px;
+		        border-radius: 50%;
+		        border-style: solid;
+		        border-color: black;
+		        border-width: 5px;
+		        animation:rounded 20s cubic-bezier(0.02, 0.02, 0.99, 1.01) infinite;
+		        -webkit-animation:rounded 20s cubic-bezier(0.02, 0.02, 0.99, 1.01) infinite;
+}
+
+@-webkit-keyframes rounded { 
+	
+	0% {
+		border-color: yellow;
+		transform: skewX(0deg);
+		-webkit-transform: skewX(0deg);
+		-moz-transform: skewX(0deg);
+		-ms-transform: skewX(0deg);
+		-o-transform: skewX(0deg);
+}
+
+
+	8.3% {
+		border-color: yellowgreen;
+		transform: skewX(15deg);
+		-webkit-transform: skewX(15deg);
+		-moz-transform: skewX(15deg);
+		-ms-transform: skewX(15deg);
+		-o-transform: skewX(15deg);
+} 
+
+	16.6% {
+		border-color: green;
+		transform: skewX(25deg);
+		-webkit-transform: skewX(25deg);
+		-moz-transform: skewX(25deg);
+		-ms-transform: skewX(25deg);
+		-o-transform: skewX(25deg);
+} 
+
+	24.9% {
+		border-color: #088F8F;
+		transform: skewX(45deg);
+		-webkit-transform: skewX(45deg);
+		-moz-transform: skewX(45deg);
+		-ms-transform: skewX(45deg);
+		-o-transform: skewX(45deg);
+} 
+
+	33.2% {
+	border-color: blue;
+	transform: skewX(20deg);
+	-webkit-transform: skewX(20deg);
+	-moz-transform: skewX(20deg);
+	-ms-transform: skewX(20deg);
+	-o-transform: skewX(20deg);
+} 
+
+	41.5% {
+		border-color: blueviolet;
+		transform: skewX(-5deg);
+		-webkit-transform: skewX(-5deg);
+		-moz-transform: skewX(-5deg);
+		-ms-transform: skewX(-5deg);
+		-o-transform: skewX(-5deg);
+} 
+
+	49.8% {
+	border-color: violet;
+	transform: skewX(-30deg);
+	-webkit-transform: skewX(-30deg);
+	-moz-transform: skewX(-30deg);
+	-ms-transform: skewX(-30deg);
+	-o-transform: skewX(-30deg);
+} 
+
+	58.1% {
+		border-color: #c71585;
+		transform: skewX(-40deg);
+		-webkit-transform: skewX(-40deg);
+		-moz-transform: skewX(-40deg);
+		-ms-transform: skewX(-40deg);
+		-o-transform: skewX(-40deg);
+} 
+
+	66.4% {
+		border-color: red;
+		transform: skewX(-25deg);
+		-webkit-transform: skewX(-25deg);
+		-moz-transform: skewX(-25deg);
+		-ms-transform: skewX(-25deg);
+		-o-transform: skewX(-25deg);
+} 
+
+	74.7% {
+		border-color: orangered;
+		transform: skewX(-15deg);
+		-webkit-transform: skewX(-15deg);
+		-moz-transform: skewX(-15deg);
+		-ms-transform: skewX(-15deg);
+		-o-transform: skewX(-15deg);
+} 
+
+	83% {
+		border-color: orange;
+		transform: skewX(5deg);
+		-webkit-transform: skewX(5deg);
+		-moz-transform: skewX(5deg);
+		-ms-transform: skewX(5deg);
+		-o-transform: skewX(5deg);
+} 
+
+	91.3% {
+		border-color: #ffae42;
+		transform: skewX(20deg);
+		-webkit-transform: skewX(20deg);
+		-moz-transform: skewX(20deg);
+		-ms-transform: skewX(20deg);
+		-o-transform: skewX(20deg);
+} 
+
+	100% {
+		border-color: yellow;
+		transform: skewX(10deg);
+		-webkit-transform: skewX(10deg);
+		-moz-transform: skewX(10deg);
+		-ms-transform: skewX(10deg);
+		-o-transform: skewX(10deg);
+}
+}
+
+@keyframes rounded { 
+	
+	0% {
+		border-color: yellow;
+		transform: skewX(0deg);
+		-webkit-transform: skewX(0deg);
+		-moz-transform: skewX(0deg);
+		-ms-transform: skewX(0deg);
+		-o-transform: skewX(0deg);
+}
+
+
+	8.3% {
+		border-color: yellowgreen;
+		transform: skewX(15deg);
+		-webkit-transform: skewX(15deg);
+		-moz-transform: skewX(15deg);
+		-ms-transform: skewX(15deg);
+		-o-transform: skewX(15deg);
+} 
+
+	16.6% {
+		border-color: green;
+		transform: skewX(25deg);
+		-webkit-transform: skewX(25deg);
+		-moz-transform: skewX(25deg);
+		-ms-transform: skewX(25deg);
+		-o-transform: skewX(25deg);
+} 
+
+	24.9% {
+		border-color: #088F8F;
+		transform: skewX(45deg);
+		-webkit-transform: skewX(45deg);
+		-moz-transform: skewX(45deg);
+		-ms-transform: skewX(45deg);
+		-o-transform: skewX(45deg);
+} 
+
+	33.2% {
+	border-color: blue;
+	transform: skewX(20deg);
+	-webkit-transform: skewX(20deg);
+	-moz-transform: skewX(20deg);
+	-ms-transform: skewX(20deg);
+	-o-transform: skewX(20deg);
+} 
+
+	41.5% {
+		border-color: blueviolet;
+		transform: skewX(-5deg);
+		-webkit-transform: skewX(-5deg);
+		-moz-transform: skewX(-5deg);
+		-ms-transform: skewX(-5deg);
+		-o-transform: skewX(-5deg);
+} 
+
+	49.8% {
+	border-color: violet;
+	transform: skewX(-30deg);
+	-webkit-transform: skewX(-30deg);
+	-moz-transform: skewX(-30deg);
+	-ms-transform: skewX(-30deg);
+	-o-transform: skewX(-30deg);
+} 
+
+	58.1% {
+		border-color: #c71585;
+		transform: skewX(-40deg);
+		-webkit-transform: skewX(-40deg);
+		-moz-transform: skewX(-40deg);
+		-ms-transform: skewX(-40deg);
+		-o-transform: skewX(-40deg);
+} 
+
+	66.4% {
+		border-color: red;
+		transform: skewX(-25deg);
+		-webkit-transform: skewX(-25deg);
+		-moz-transform: skewX(-25deg);
+		-ms-transform: skewX(-25deg);
+		-o-transform: skewX(-25deg);
+} 
+
+	74.7% {
+		border-color: orangered;
+		transform: skewX(-15deg);
+		-webkit-transform: skewX(-15deg);
+		-moz-transform: skewX(-15deg);
+		-ms-transform: skewX(-15deg);
+		-o-transform: skewX(-15deg);
+} 
+
+	83% {
+		border-color: orange;
+		transform: skewX(5deg);
+		-webkit-transform: skewX(5deg);
+		-moz-transform: skewX(5deg);
+		-ms-transform: skewX(5deg);
+		-o-transform: skewX(5deg);
+} 
+
+	91.3% {
+		border-color: #ffae42;
+		transform: skewX(20deg);
+		-webkit-transform: skewX(20deg);
+		-moz-transform: skewX(20deg);
+		-ms-transform: skewX(20deg);
+		-o-transform: skewX(20deg);
+} 
+
+	100% {
+		border-color: yellow;
+		transform: skewX(10deg);
+		-webkit-transform: skewX(10deg);
+		-moz-transform: skewX(10deg);
+		-ms-transform: skewX(10deg);
+		-o-transform: skewX(10deg);
+}
 }
